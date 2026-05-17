@@ -7,15 +7,16 @@
 
 > Uma API RESTful construída com foco na validação de contratos de dados e automação de testes isolados.
 
-## 📸 Demonstração do Projeto
-
-*(Interface de documentação interativa gerada automaticamente pelo Swagger UI)*
-![Demonstração do Swagger UI](Bug Tracker/imgs/swagger_demo.png)
-
 ## 🎯 Sobre o Projeto
 Este projeto é uma API RESTful para gerenciamento de falhas e bugs de software (Bug Tracker). Foi desenvolvido com o objetivo principal de servir como um ambiente robusto para a aplicação de práticas avançadas de **Quality Assurance (QA) e Automação de Testes Back-end**.
 
 Ao invés de focar apenas no desenvolvimento do CRUD, a arquitetura foi desenhada para facilitar a injeção de dependências, garantindo contratos estritos de dados e testes completamente isolados do ambiente de produção.
+
+## 📸 Demonstração do Projeto
+
+*(Interface de documentação interativa gerada automaticamente pelo Swagger UI)*
+![Demonstração do Swagger UI](BugTracker/imgs/swagger_demo.png)
+
 
 ## 🛠️ Stack Tecnológica
 * **FastAPI:** Framework backend principal.
@@ -37,7 +38,7 @@ Para evitar que os testes automatizados insiram "lixo" no banco de dados princip
 ### 2. Cenários Validados (Test Matrix)
 
 *(Execução da suíte de testes automatizados com 100% de aprovação)*
-![Demonstração do Pytest](Bug Tracker/imgs/pytest_demo.png)
+![Demonstração do Pytest](BugTracker/imgs/pytest_demo.png)
 
 A cobertura de testes contempla fluxos positivos e negativos para garantir a resiliência da API:
 
